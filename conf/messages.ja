@@ -1,0 +1,14 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+title=タイトル
+content=内容
+postedAt=投稿日時
+author=作成者
+post=投稿
+tags=タグ
+name=Common name
+email=Email
+password=パスワード
+fullname=フルネーム
+isAdmin=管理者
