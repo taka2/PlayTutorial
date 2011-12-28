@@ -12,3 +12,6 @@ email=Email
 password=パスワード
 fullname=フルネーム
 isAdmin=管理者
+secure.username=メールアドレス：
+secure.password=パスワード：
+secure.signin=ログイン
