@@ -12,6 +12,10 @@ GET     /posts/{tag}                            Application.listTagged
 # Import CRUD routes
 GET     /admin/?                                Admin.index
 *       /admin                                  module:crud
+GET     /admin/myPosts/{id}                     Admin.form
+POST    /admin/myPosts/{id}                     Admin.save
+GET     /admin/new                              Admin.form
+POST    /admin/new                              Admin.save
 
 # Import Secure routes
 *       /                                       module:secure
