@@ -27,9 +27,7 @@
     <p>
         #{field 'content'}
         <label>Write here:</label>
-        <textarea name="${field.name}">
-          ${post?.content}
-        </textarea>
+        <textarea name="${field.name}">${post?.content}</textarea>
         <span class="error">#{error 'post.title' /}</span>
         #{/field}
     </p>
